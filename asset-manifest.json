@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/mosab-portfolio/static/css/main.bc45e058.css",
+    "main.js": "/mosab-portfolio/static/js/main.8d728cf6.js",
+    "static/css/64.bba8fa55.chunk.css": "/mosab-portfolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/mosab-portfolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/mosab-portfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/mosab-portfolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/microspot.png": "/mosab-portfolio/static/media/microspot.8e2af49aab991dc55cc1.png",
+    "static/media/Montserrat-Regular.ttf": "/mosab-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/nakheel.png": "/mosab-portfolio/static/media/nakheel.69da5c074159b6ac8b60.png",
+    "static/media/Agustina.woff": "/mosab-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/syrian-virtual-university.jpg": "/mosab-portfolio/static/media/syrian-virtual-university.6da6e08a56e25eae212a.jpg",
+    "static/media/damsuniversity.png": "/mosab-portfolio/static/media/damsuniversity.c2daf78a6ecf9906e2ed.png",
+    "static/media/manOnTable.svg": "/mosab-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/mosab-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/mosab-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/etloob1.png": "/mosab-portfolio/static/media/etloob1.d1a7986ee6c7fb862e6a.png",
+    "static/media/jira.png": "/mosab-portfolio/static/media/jira.193fc819f66c426e1046.png",
+    "static/media/etloob.png": "/mosab-portfolio/static/media/etloob.a967ab39cb2c996bc305.png",
+    "static/media/skill.svg": "/mosab-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/mosab-portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/mosab-portfolio/index.html",
+    "static/media/talksCardBack.svg": "/mosab-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.bc45e058.css.map": "/mosab-portfolio/static/css/main.bc45e058.css.map",
+    "main.8d728cf6.js.map": "/mosab-portfolio/static/js/main.8d728cf6.js.map",
+    "64.bba8fa55.chunk.css.map": "/mosab-portfolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/mosab-portfolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/mosab-portfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/mosab-portfolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc45e058.css",
+    "static/js/main.8d728cf6.js"
+  ]
+}
