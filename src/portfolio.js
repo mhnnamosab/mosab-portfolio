@@ -23,7 +23,7 @@ const greeting = {
   username: "Mosab Mhnna",
   title: "Hi all, I'm Mosab",
   subTitle: emoji(
-    "AI Engineer and Frontend Developer 🚀 with 5+ years of experience (specialized in Angular), delivering high-performance web applications. Skilled in building scalable, user-friendly, and dynamic front-end solutions with a strong foundation in modern development practices and AI integration."
+    "Frontend Software Engineer 🚀 with 5+ years building performant, accessible, pixel-perfect web UIs in Angular, React & TypeScript. I own features from design handoff and API integration through testing and cross-browser delivery — real-time dashboards, complex state, and AI-powered interfaces — and keep codebases scalable through modular architecture and rigorous code review."
   ),
   resumeLink:"", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/mhnnamosab",
   linkedin: "https://www.linkedin.com/in/mosab-mhnna-3649281b4/",
-  gmail: "ite.mosab@gmail.com",
+  gmail: "eng.mosab.mhnna@gmail.com",
   gitlab: "",
   facebook: "",
   medium: "",
@@ -48,17 +48,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FRONTEND SOFTWARE DEVELOPER EXPLORING EVERY TECH STACK",
+  subTitle: "FRONTEND SOFTWARE ENGINEER — ANGULAR, REACT & TYPESCRIPT",
   skills: [
-    emoji("⚡ Frontend Frameworks & Libraries: Angular, Vue.js, Angular Material, PrimeNg, Vuex, RxJS, NgRx"),
-    emoji("⚡ JavaScript/TypeScript: ES6+, TypeScript, DOM Manipulation"),
-    emoji("⚡ Web Technologies: HTML5, CSS3, SASS, Bootstrap, TailwindCSS, HTML5 Canvas"),
-    emoji("⚡ Build Tools: Webpack, Angular CLI, Vue CLI, Vite, Nx, NPM"),
-    emoji("⚡ DevOps & CI/CD: Azure DevOps, Git, GitHub, GitLab, Docker"),
-    emoji("⚡ API Integration: RESTful APIs, JWT authentication, WebSocket, Server-Sent Events (SSE), Stomp"),
-    emoji("⚡ Agile & Project Management: Jira, ClickUp, Asana, Scrum"),
-    emoji("⚡ Responsive Design: Mobile-first approach, cross-browser compatibility"),
-    emoji("⚡ UX/UI: Wireframing, user-centered design, prototyping tools like Figma, XD")
+    emoji("⚡ Frontend: Angular, React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Styled-Components, Vue, Angular Material, Vite, HTML Canvas"),
+    emoji("⚡ State & Data: Redux, Zustand, NgRx, RxJS, REST API integration, WebSocket, Server-Sent Events"),
+    emoji("⚡ Quality: Jest, Jasmine/Karma, accessibility, cross-browser compatibility, performance optimization, code review, Nx monorepo"),
+    emoji("⚡ AI: Claude API, Model Context Protocol (MCP), AI agent workflows, tool use & multi-step reasoning"),
+    emoji("⚡ Tools: Git, GitHub, Figma, Zeplin, Jira, Agile Scrum, Google Maps Platform")
   ],
   
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -68,6 +64,10 @@ softwareSkills: [
   {
     skillName: "angular",
     fontAwesomeClassname: "fab fa-angular"
+  },
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
   },
   {
     skillName: "vuejs",
@@ -82,10 +82,6 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-css3-alt"
   },
   {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
-  },
-  {
     skillName: "typescript",
     fontAwesomeClassname: "fas fa-code"
   },
@@ -94,12 +90,20 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-js"
   },
   {
-    skillName: "webpack",
+    skillName: "redux / ngrx",
+    fontAwesomeClassname: "fas fa-layer-group"
+  },
+  {
+    skillName: "nx monorepo",
     fontAwesomeClassname: "fas fa-cubes"
   },
   {
-    skillName: "angular-cli",
-    fontAwesomeClassname: "fab fa-angular"
+    skillName: "jest",
+    fontAwesomeClassname: "fas fa-vial"
+  },
+  {
+    skillName: "claude api / mcp",
+    fontAwesomeClassname: "fas fa-robot"
   },
   {
     skillName: "npm",
@@ -110,20 +114,12 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-git"
   },
   {
-    skillName: "docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "azure-devops",
-    fontAwesomeClassname: "fab fa-microsoft"
+    skillName: "github",
+    fontAwesomeClassname: "fab fa-github"
   },
   {
     skillName: "restful-apis",
     fontAwesomeClassname: "fas fa-plug"
-  },
-  {
-    skillName: "jwt-authentication",
-    fontAwesomeClassname: "fas fa-lock"
   },
   {
     skillName: "websocket",
@@ -156,19 +152,19 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Syrian Virtual University",
-      logo: require("./assets/images/syrian-virtual-university.jpg"),
-      subHeader: "Master of Web Science",
-      duration: "Jan 2024 - Present",
-      desc: "program designed to provide students with in-depth knowledge and practical skills in web technologies, software development, data management, and digital communication..",
+      logo: require("./assets/images/SVU-LOGO.jpg"),
+      subHeader: "Master's Degree, Web Science",
+      duration: "2024",
+      desc: "Program providing in-depth knowledge and practical skills in web technologies, software development, data management, and digital communication.",
       descBullets: []
     },
     {
       schoolName: "Damascus University",
       logo: require("./assets/images/damsuniversity.png"),
-      subHeader: "Bachelor of Engineering (B.E.) in Information Technology - Specialization in Artificial Intelligence",
-      duration: "Jan 2016 - Jan 2021",
-      desc: "This program blends core informatics engineering with advanced AI studies, equipping graduates with expertise in machine learning, neural networks, and intelligent system design..",
-      descBullets: [""]
+      subHeader: "Bachelor's Degree, Artificial Intelligence",
+      duration: "2016 - 2021",
+      desc: "Blends core informatics engineering with advanced AI studies, covering machine learning, neural networks, and intelligent system design.",
+      descBullets: []
     }
   ]
 };
@@ -196,58 +192,58 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "SENIOR FRONTEND DEVELOPER",
+      role: "SOFTWARE ENGINEER",
       company: "Micropolis Robotics",
       companylogo: require("./assets/images/micropolis_robotics_logo.jpg"),
-      date: "Mar 2024 – Present",
-      desc: "Contributed to the development and enhancement of the Microspot system, delivering high-quality, scalable frontend solutions.",
+      date: "Mar 2024 – Present · Dubai, UAE",
+      desc: "Own frontend delivery for robotics operations software in Angular and TypeScript — from design handoff and API integration through testing and production release.",
       descBullets: [
-        "Edited, fixed bugs, and added new features for the Microspot system",
-        "Developed location-based services and interactive maps using Google Maps API",
-        "Created visually engaging and interactive content with HTML5 Canvas",
-        "Integrated real-time updates and notifications using Server-Sent Events (SSE) and Stomp WebSocket",
-        "Enabled seamless real-time communication with WebSocket",
-        "Worked with Microfrontends Architecture using Nx to manage multiple frontend projects efficiently",
-        "Ensured high code quality through thorough code reviews and adherence to best practices",
-        "Collaborated in an Agile Scrum environment to deliver high-quality software solutions"
+        "Shipped AI-powered features on the Claude API and MCP, including agent workflows that let operators trigger real system actions from the UI",
+        "Built live fleet monitoring on WebSockets and Server-Sent Events, managing high-frequency real-time state with NgRx and RxJS, plus Google Maps tracking and HTML Canvas visualization",
+        "Led the migration of a monolithic codebase to a modular Nx workspace, splitting it into libraries with clear boundaries — faster builds, isolated unit testing with Jasmine/Karma and Jest, and parallel work across the team",
+        "Built an internal HR management tool in React, TypeScript, and Next.js — employee records, attendance tracking, and fingerprint-device integration — with Redux state management, Tailwind CSS styling, and Jest tests",
+        "Raised code quality through Git-based code reviews and shared conventions within an Agile Scrum team",
+        "Optimized performance across bundle size, rendering, and data flows, keeping the app fast and responsive as scope grew",
+        "Built responsive, accessible (WCAG-minded) interfaces with Angular Material, implementing pixel-perfect designs from Figma and Zeplin"
       ]
     },
     {
       role: "FRONTEND DEVELOPER",
-      company: "Teacharabia",
+      company: "TeachArabia",
       companylogo: require("./assets/images/teacharabia.png"),
-      date: "Jan 2022 – Mar 2024",
-      desc: "Contributed to the development and optimization of various web applications, focusing on performance, usability, and scalability.",
+      date: "Feb 2022 – Mar 2024 · Damascus, Syria",
+      desc: "Built the learning platform's interfaces in Angular, turning designs into a reusable, scalable component library the team built on.",
       descBullets: [
-        "Edited, fixed bugs, and added new features for the Charity Resource Planning System (TAWAD)",
-        "Developed complex CRUD operations, dynamic forms, and stepper functionalities to streamline user workflows",
-        "Optimized UI/UX design for seamless user interaction and improved system performance",
-        "Built and developed a complete frontend for an exams and questions builder system (Thaber) using Vue.js, ensuring a smooth and intuitive user experience"
+        "Developed the Thaber application in Vue",
+        "Integrated REST APIs across products with consistent cross-browser, cross-device behavior"
       ]
     },
     {
-      role: "FRONTEND DEVELOPER",
-      company: "Nakheel Group International",
-      companylogo: require("./assets/images/nakheel.png"),
-      date: "May 2021 – Jan 2022",
-      desc: "Designed and developed user-centric dashboards for diverse platforms, enhancing functionality and user engagement.",
-      descBullets: [
-        "Developed a dashboard for an English learning platform (WRITALK), enabling live streaming and online payments through multiple payment gateways",
-        "Developed a dashboard for the Events Creation System (RecDeck) to create events for cricket and other sports"
-      ]
-    },
-    {
-      role: "FRONTEND DEVELOPER",
+      role: "FRONTEND DEVELOPER (PART-TIME)",
       company: "Etloob",
       companylogo: require("./assets/images/etloob.png"),
-      date: "Jan 2021 – Jan 2023",
-      desc: "Played a key role in designing and developing user-friendly frontend systems for an ecommerce platform and management dashboards.",
+      date: "Jan 2021 – Jan 2024 · Damascus, Syria",
+      desc: "Built the storefront for an e-commerce platform along with its admin dashboard and product management module — catalog, listings, and order handling.",
       descBullets: [
-        "Developed a comprehensive frontend (dashboard and website) for an ecommerce platform (Etloob), featuring product and order management, online payment integration, and real-time order tracking",
-        "Developed a dashboard for efficient administrative and data management tasks, streamlining workflows and improving system usability"
+        "Worked directly with backend and product to define API contracts and iterate on features release by release"
       ]
+    },
+    {
+      role: "FRONTEND DEVELOPER, ANGULAR",
+      company: "Nakheel Group International",
+      companylogo: require("./assets/images/nakheel.png"),
+      date: "May 2021 – Feb 2022 · Damascus, Syria",
+      desc: "Built the teacher platform for an English-learning application in Angular — lesson management, class scheduling, and student progress views.",
+      descBullets: []
+    },
+    {
+      role: "FRONTEND DEVELOPER",
+      company: "B-Wire",
+      companylogo: require("./assets/images/bwire.svg"),
+      date: "Sep 2019 – Feb 2020 · Damascus, Syria",
+      desc: "Implemented pixel-perfect, responsive interfaces from design specs in HTML5, CSS3, and JavaScript.",
+      descBullets: []
     }
-    
   ]
 };
 
@@ -272,7 +268,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.etloob.sy/"
+          url: "https://www.etloob.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -301,6 +297,39 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Building with the Claude API",
+      subtitle:
+        "Anthropic certification on building applications with the Claude API.",
+      image: require("./assets/images/claude-api.svg"),
+      imageAlt: "Claude API",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://verify.skilljar.com/c/n5zxmf2nyecr"
+        }
+      ]
+    },
+    {
+      title: "Model Context Protocol: Advanced Topics",
+      subtitle:
+        "Anthropic certification on advanced Model Context Protocol (MCP) topics.",
+      image: require("./assets/images/mcp.svg"),
+      imageAlt: "MCP",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://verify.skilljar.com/c/b38w6zxs4og5"
+        }
+      ]
+    },
+    {
+      title: "World Robot Olympiad (WRO) 2018",
+      subtitle: "Contestant at the World Robot Olympiad 2018.",
+      image: require("./assets/images/wro.svg"),
+      imageAlt: "WRO",
+      footerLink: []
+    },
     {
       title: "Jira Fundamentals Badge",
       subtitle:
@@ -414,7 +443,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+971-586163728",
-  email_address: "ite.mosab@gmail.com"
+  email_address: "eng.mosab.mhnna@gmail.com"
 };
 
 // Twitter Section
