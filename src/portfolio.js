@@ -292,17 +292,17 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications & Achievements 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Verified certifications, recognition, and experience letters.",
 
   achievementsCards: [
     {
       title: "Building with the Claude API",
       subtitle:
-        "Anthropic certification on building applications with the Claude API.",
-      image: require("./assets/images/claude-api.svg"),
-      imageAlt: "Claude API",
+        "Anthropic certificate of completion — Claude with the Anthropic API: building applications, tool use, and agent workflows on Claude.",
+      image: require("./assets/images/cert-claude-api.jpg"),
+      imageAlt: "Anthropic certificate: Claude with the Anthropic API",
       footerLink: [
         {
           name: "Certification",
@@ -313,9 +313,9 @@ const achievementSection = {
     {
       title: "Model Context Protocol: Advanced Topics",
       subtitle:
-        "Anthropic certification on advanced Model Context Protocol (MCP) topics.",
-      image: require("./assets/images/mcp.svg"),
-      imageAlt: "MCP",
+        "Anthropic certificate of completion covering advanced Model Context Protocol (MCP) topics for connecting AI agents to real tools and systems.",
+      image: require("./assets/images/cert-mcp-advanced.jpg"),
+      imageAlt: "Anthropic certificate: Model Context Protocol Advanced Topics",
       footerLink: [
         {
           name: "Certification",
