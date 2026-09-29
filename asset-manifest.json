@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mosab-portfolio/static/css/main.bc45e058.css",
-    "main.js": "/mosab-portfolio/static/js/main.b8554b55.js",
+    "main.js": "/mosab-portfolio/static/js/main.ba98065b.js",
     "static/css/64.bba8fa55.chunk.css": "/mosab-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/mosab-portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/mosab-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -22,8 +22,12 @@
     "static/media/resume.pdf": "/mosab-portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/mosab-portfolio/index.html",
     "static/media/talksCardBack.svg": "/mosab-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "static/media/claude-api.svg": "/mosab-portfolio/static/media/claude-api.1b467f327b697be6764a1f7d5fe10aaf.svg",
+    "static/media/wro.svg": "/mosab-portfolio/static/media/wro.9876188e6c899b6bb7affeab16f05539.svg",
+    "static/media/bwire.svg": "/mosab-portfolio/static/media/bwire.4be7982b5168e6f1b8687a87b53a1175.svg",
+    "static/media/mcp.svg": "/mosab-portfolio/static/media/mcp.34b2d43d876d342f14424976dbebe58f.svg",
     "main.bc45e058.css.map": "/mosab-portfolio/static/css/main.bc45e058.css.map",
-    "main.b8554b55.js.map": "/mosab-portfolio/static/js/main.b8554b55.js.map",
+    "main.ba98065b.js.map": "/mosab-portfolio/static/js/main.ba98065b.js.map",
     "64.bba8fa55.chunk.css.map": "/mosab-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/mosab-portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/mosab-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.bc45e058.css",
-    "static/js/main.b8554b55.js"
+    "static/js/main.ba98065b.js"
   ]
 }
